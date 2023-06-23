@@ -18,6 +18,7 @@ Install brew
 # Run the script
 ```
 cd sre-mac-setup
+chmod +x sre-tools-mac.sh
 ./sre-tools-mac.sh
 
 ```
