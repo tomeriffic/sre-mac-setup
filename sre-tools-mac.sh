@@ -7,24 +7,26 @@ SKIPPED_TOOLS=""
 tool_list_file="sre-tools.txt"
 
 while IFS= read -r line; do
-    [[ $line != "#"* && $line != "" ]] || continue
+    if [[ -n "$line" ]]; then
+        if [[ $line == "--cask"* ]]; then
+            command="brew install --cask ${line/--cask /}"
+        else
+            command="brew install ${line}"
+        fi
 
-    if [[ $line == "--cask"* ]]; then
-        command="brew install --cask ${line/--cask /}"
-    else
-        command="brew install ${line}"
+        if eval $command; then
+            ((TOOLS_INSTALLED++))
+        else
+            echo "Error installing ${line}"
+            ((TOOLS_SKIPPED++))
+            SKIPPED_TOOLS+="- ${line}\n"
+        fi
     fi
+done < "$tool_list_file"
 
-    if eval $command; then
-        ((TOOLS_INSTALLED++))
-    else
-        echo "Error installing ${line}"
-        ((TOOLS_SKIPPED++))
-        SKIPPED_TOOLS+="- ${line}\n"
-    fi
-done <<< "$(cat "$tool_list_file")"
+TOTAL_TOOLS=$((TOOLS_INSTALLED + TOOLS_SKIPPED))
 
-echo "Total tools: $((TOOLS_INSTALLED + TOOLS_SKIPPED))"
+echo "Total tools: $TOTAL_TOOLS"
 echo "Tools installed: $TOOLS_INSTALLED"
 echo -e "Tools skipped: $TOOLS_SKIPPED\n$SKIPPED_TOOLS"
 
