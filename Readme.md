@@ -70,9 +70,4 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 - [The Unarchiver](https://formulae.brew.sh/cask/the-unarchiver)
 
 
-# License
-
-License: MIT
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/mohanvamc/sre-mac-setup/blob/main/LICENSE) file for details.
-
 
