@@ -28,8 +28,6 @@ chmod +x sre-tools-mac.sh
 - [Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code)
 - [GitHub](https://formulae.brew.sh/cask/github)
 - [Notion](https://formulae.brew.sh/cask/notion)
-- [Beyond Compare](https://formulae.brew.sh/cask/beyond-compare)
-- [AWS Vault](https://formulae.brew.sh/cask/aws-vault)
 
 ## Cloud CLI
 - [Google Cloud SDK](https://formulae.brew.sh/cask/google-cloud-sdk)
