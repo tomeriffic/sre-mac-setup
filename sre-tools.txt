@@ -19,8 +19,6 @@ helm
 tfenv
 tgenv
 jenv
-pyenv
-pyenv-virtualenv
 net-tools
 openjdk
 go
