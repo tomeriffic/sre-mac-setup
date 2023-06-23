@@ -1,9 +1,9 @@
-visual-studio-code
-github
-notion
-google-cloud-sdk
-awscli
-rancher
+--cask visual-studio-code
+--cask github
+--cask notion
+--cask google-cloud-sdk
+--cask awscli
+--cask rancher
 kubernetes-cli
 kubectx
 k9s
@@ -13,14 +13,14 @@ tfenv
 tgenv
 jenv
 go
-iterm2
+--cask iterm2
 romkatv/powerlevel10k/powerlevel10k
 jq
 wget
 tree
 adobe-acrobat-reader
 bash
-asciinema
-wireshark
-the-unarchiver
-1password
+--cask asciinema
+--cask wireshark
+--cask the-unarchiver
+--cask 1password

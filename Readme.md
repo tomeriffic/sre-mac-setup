@@ -62,6 +62,6 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 - [Asciinema](https://formulae.brew.sh/cask/asciinema)
 - [Wireshark](https://formulae.brew.sh/cask/wireshark)
 - [The Unarchiver](https://formulae.brew.sh/cask/the-unarchiver)
-
+- [1Password](https://formulae.brew.sh/cask/1password)
 
 
