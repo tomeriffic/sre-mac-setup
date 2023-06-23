@@ -22,7 +22,7 @@ while IFS= read -r line; do
         ((TOOLS_SKIPPED++))
         SKIPPED_TOOLS+="- ${line}\n"
     fi
-done < "$tool_list_file"
+done <<< "$(cat "$tool_list_file")"
 
 echo "Total tools: $((TOOLS_INSTALLED + TOOLS_SKIPPED))"
 echo "Tools installed: $TOOLS_INSTALLED"
