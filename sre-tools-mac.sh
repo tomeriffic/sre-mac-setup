@@ -2,14 +2,8 @@
 
 tool_list_file="sre-tools.txt"
 
-failed_tools=""
-
 while IFS= read -r tool; do
-  command="brew install $tool"
+  command="brew install $tool || true"
 
-  if ! eval $command; then
-    failed_tools+="- $tool\n"
-  fi
+  eval $command
 done < "$tool_list_file"
-
-echo -e "Failed tools:\n$failed_tools"
