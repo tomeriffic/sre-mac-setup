@@ -31,7 +31,7 @@ chmod +x sre-tools-mac.sh
 
 ## Cloud CLI
 - [Google Cloud SDK](https://formulae.brew.sh/cask/google-cloud-sdk)
-- [AWS CLI](https://formulae.brew.sh/cask/awscli)
+- [AWS CLI](https://formulae.brew.sh/formula/awscli)
 
 ## Kubernetes and Containers
 - [Rancher](https://formulae.brew.sh/cask/rancher)
@@ -59,7 +59,7 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 - [tree](https://formulae.brew.sh/formula/tree)
 - [Adobe Acrobat Reader](https://formulae.brew.sh/cask/adobe-acrobat-reader)
 - [Bash](https://formulae.brew.sh/formula/bash)
-- [Asciinema](https://formulae.brew.sh/cask/asciinema)
+- [Asciinema](https://formulae.brew.sh/formula/asciinema)
 - [Wireshark](https://formulae.brew.sh/cask/wireshark)
 - [The Unarchiver](https://formulae.brew.sh/cask/the-unarchiver)
 - [1Password](https://formulae.brew.sh/cask/1password)

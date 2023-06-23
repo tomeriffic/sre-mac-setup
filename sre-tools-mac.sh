@@ -1,21 +1,15 @@
 #!/bin/zsh
 
-TOOLS_INSTALLED=0
-TOOLS_SKIPPED=0
-SKIPPED_TOOLS=""
+tool_list_file="sre-tools.txt"
 
-input_file="sre-tools.txt"
+failed_tools=""
 
-while IFS= read -r line; do
-    if [[ $line == "--cask"* ]]; then
-        command="brew install --cask ${line/--cask /}"
-    else
-        command="brew install ${line}"
-    fi
+while IFS= read -r tool; do
+  command="brew install $tool"
 
-    eval $command && ((TOOLS_INSTALLED++)) || { ((TOOLS_SKIPPED++)); SKIPPED_TOOLS+="$line\n"; }
-done < "$input_file"
+  if ! eval $command; then
+    failed_tools+="- $tool\n"
+  fi
+done < "$tool_list_file"
 
-echo "Total tools: $((TOOLS_INSTALLED + TOOLS_SKIPPED))"
-echo "Tools installed: $TOOLS_INSTALLED"
-echo -e "Tools skipped: $TOOLS_SKIPPED\n$SKIPPED_TOOLS"
+echo -e "Failed tools:\n$failed_tools"
