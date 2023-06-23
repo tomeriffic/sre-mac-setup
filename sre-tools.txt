@@ -1,18 +1,19 @@
+##################
 # text and Collaboration tools
 visual-studio-code
 github
 notion
-
+##################
 # CLOUD cli
 google-cloud-sdk
 awscli
-
+##################
 # k8s n Containers
 rancher
 kubernetes-cli
 kubectx
 k9s
-
+##################
 # DevOps
 argocd
 helm
@@ -20,7 +21,7 @@ tfenv
 tgenv
 jenv
 go
-
+##################
 # Other
 iterm2
 romkatv/powerlevel10k/powerlevel10k
@@ -32,9 +33,6 @@ bash
 asciinema
 wireshark
 the-unarchiver
-
+##################
 # Security
 1password
-
-
-
