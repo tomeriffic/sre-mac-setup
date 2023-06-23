@@ -37,7 +37,6 @@ chmod +x sre-tools-mac.sh
 - [Rancher](https://formulae.brew.sh/cask/rancher)
 - [Kubernetes CLI](https://formulae.brew.sh/formula/kubernetes-cli)
 - [Kubectx](https://formulae.brew.sh/formula/kubectx)
-- [Kubens](https://formulae.brew.sh/formula/kubectx)
 - [K9s](https://formulae.brew.sh/formula/k9s)
 
 ## DevOps
