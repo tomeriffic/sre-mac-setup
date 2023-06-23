@@ -2,8 +2,6 @@
 visual-studio-code
 github
 notion
-beyond-compare
-aws-vault
 
 # CLOUD cli
 google-cloud-sdk
