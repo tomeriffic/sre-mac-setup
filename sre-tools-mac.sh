@@ -1,28 +1,19 @@
 #!/bin/zsh
 
 EXIT_CODE=0
+PACKAGES_INSTALLED=0
+TOTAL_PACKAGES=$(grep -c -v "#" sre-tools.txt)
 
 while read -r line; do
-    if [[ $line != "#"* && $line != "" ]]; then
-        if [[ $line == "--cask"* ]]; then
-            command="brew install --cask ${line/--cask /}"
-        else
-            command="brew install ${line}"
-        fi
+    [[ $line == "#"* || $line == "" ]] && continue
 
-        eval $command
-        exit_status=$?
-        if [[ $exit_status -ne 0 ]]; then
-            echo "Error installing ${line}"
-            EXIT_CODE=1
-        fi
-    fi
+    command="brew install ${line/#--cask /}"
+    eval $command
+    [[ $? -ne 0 ]] && { echo "Error installing ${line}"; EXIT_CODE=1; } || ((PACKAGES_INSTALLED++))
 done < sre-tools.txt
+
+[[ $PACKAGES_INSTALLED -eq $TOTAL_PACKAGES ]] && brew cleanup
 
 exit $EXIT_CODE
 
-if [[ $EXIT_CODE -ne 0 ]]; then
-    echo "Script failed with an error"
-fi
-
-
+[[ $EXIT_CODE -ne 0 ]] && echo "Script failed with an error"
