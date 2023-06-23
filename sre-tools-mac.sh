@@ -1,14 +1,8 @@
-#!/bin/zsh
+input_file="sre-tools.txt"
+output_file="failed-tools.txt"
 
-tool_list_file="sre-tools.txt"
-failed_tools=""
+# Install tools and continue on errors
+cat "$input_file" | xargs -I {} zsh -c 'brew install {} || true'
 
-while IFS= read -r tool; do
-  if ! brew install "$tool"; then
-    failed_tools+="\n- $tool"
-  fi
-done < "$tool_list_file"
-
-echo -e "Failed to install the following tools:$failed_tools"
-
-brew cleanup || true
+# Display failed tools
+grep -vxFf <(brew list 2>/dev/null) "$input_file" > "$output_file"
