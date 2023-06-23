@@ -2,7 +2,7 @@
 --cask github
 --cask notion
 --cask google-cloud-sdk
---cask awscli
+awscli
 --cask rancher
 kubernetes-cli
 kubectx
