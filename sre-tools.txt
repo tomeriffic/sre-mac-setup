@@ -19,8 +19,6 @@ helm
 tfenv
 tgenv
 jenv
-net-tools
-openjdk
 go
 
 # Other

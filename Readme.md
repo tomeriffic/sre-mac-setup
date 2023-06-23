@@ -45,8 +45,6 @@ chmod +x sre-tools-mac.sh
 - [tfenv](https://formulae.brew.sh/formula/tfenv)
 - [tgenv](https://formulae.brew.sh/formula/tgenv)
 - [jenv](https://formulae.brew.sh/formula/jenv)
-- [Net Tools](https://formulae.brew.sh/formula/net-tools)
-- [OpenJDK](https://formulae.brew.sh/formula/openjdk)
 - [Go](https://formulae.brew.sh/formula/go)
 
 ## Other
