@@ -10,10 +10,10 @@ while read -r line; do
             command="brew install ${line}"
         fi
 
-        output=$($command 2>&1)
-        if [[ $? -ne 0 ]]; then
-            echo "Error installing ${line}:"
-            echo "$output"
+        eval $command
+        exit_status=$?
+        if [[ $exit_status -ne 0 ]]; then
+            echo "Error installing ${line}"
             EXIT_CODE=1
         fi
     fi
@@ -24,4 +24,5 @@ exit $EXIT_CODE
 if [[ $EXIT_CODE -ne 0 ]]; then
     echo "Script failed with an error"
 fi
+
 
