@@ -1,3 +1,26 @@
+# Pre-req
+
+Install Xcode
+
+``` xcode-select --install ```
+
+Install brew 
+
+``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+
+
+# Clone the Repo
+ ```
+ git clone https://github.com/mohanvamc/sre-mac-setup.git
+ 
+ ```
+
+# Run the script
+```
+cd sre-mac-setup
+./sre-tools-mac.sh
+
+```
 # Package Links
 
 ## Text and Collaboration Tools
@@ -44,3 +67,10 @@
 
 ## Security
 - [1Password](https://1password.com/)
+
+# License
+
+License: MIT
+This project is licensed under the MIT License. See the [LICENSE] (https://opensource.org/licenses/MIT) file for details.
+
+
