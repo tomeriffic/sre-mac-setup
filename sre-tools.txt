@@ -1,0 +1,47 @@
+# text and Collaboration tools
+visual-studio-code
+github
+notion
+beyond-compare
+aws-vault
+
+# CLOUD cli
+google-cloud-sdk
+awscli
+
+# k8s n Containers
+rancher
+kubernetes-cli
+kubectx
+kubens
+k9s
+
+# DevOps
+argocd
+helm
+tfenv
+tgenv
+jenv
+pyenv
+pyenv-virtualenv
+net-tools
+openjdk
+go
+
+# Other
+iterm2
+romkatv/powerlevel10k/powerlevel10k
+jq
+wget
+tree
+adobe-acrobat-reader
+bash
+asciinema
+wireshark
+the-unarchiver
+
+# Security
+1password
+
+
+
