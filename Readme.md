@@ -73,6 +73,6 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 # License
 
 License: MIT
-This project is licensed under the MIT License. See the [LICENSE] (https://opensource.org/licenses/MIT) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for details.
 
 
