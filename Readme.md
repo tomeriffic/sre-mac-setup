@@ -11,7 +11,7 @@ Install brew
 
 # Clone the Repo
  ```
- git clone https://github.com/mohanvamc/sre-mac-setup.git
+ git clone https://github.com/techize/sre-mac-setup.git
 
  ```
 
