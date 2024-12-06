@@ -24,3 +24,11 @@ bash
 --cask wireshark
 --cask the-unarchiver
 --cask 1password
+--cask iterm2
+firefox
+--cask brave-browser
+zsh-autosuggestions
+zsh-syntax-highlighting
+zsh-history-substring-search
+powerlevel10k
+
