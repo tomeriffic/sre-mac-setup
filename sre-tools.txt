@@ -5,7 +5,7 @@ kubectx
 k9s
 argocd
 helm
-tap hashicorp/tap
+hashicorp/tap
 hashicorp/tap/packer
 tfenv
 tgenv
@@ -19,9 +19,7 @@ wget
 tree
 adobe-acrobat-reader
 bash
---cask asciinema
---cask wireshark
---cask the-unarchiver
+x--cask the-unarchiver
 --cask 1password
 --cask iterm2
 firefox
