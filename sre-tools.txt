@@ -1,8 +1,5 @@
 --cask visual-studio-code
 --cask github
---cask notion
---cask google-cloud-sdk
-awscli
 --cask rancher
 kubernetes-cli
 kubectx
