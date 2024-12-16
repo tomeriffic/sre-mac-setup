@@ -44,3 +44,9 @@ terraformer
 terragrunt
 --cask lens
 --cask obsidian
+p7zip
+tmux
+vault
+winetricks
+figma
+wine-stable
