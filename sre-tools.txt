@@ -1,6 +1,5 @@
 --cask visual-studio-code
 --cask github
---cask rancher
 kubernetes-cli
 kubectx
 k9s
@@ -50,3 +49,8 @@ vault
 winetricks
 figma
 wine-stable
+docker
+docker-compose
+docker-machine
+--cask virtualbox
+
