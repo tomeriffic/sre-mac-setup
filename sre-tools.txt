@@ -42,4 +42,4 @@ lazygit
 neovim
 terraformer
 terragrunt
-
+--cask lens
