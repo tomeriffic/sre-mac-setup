@@ -9,6 +9,8 @@ kubectx
 k9s
 argocd
 helm
+tap hashicorp/tap
+hashicorp/tap/packer
 tfenv
 tgenv
 jenv
@@ -16,6 +18,7 @@ go
 --cask iterm2
 romkatv/powerlevel10k/powerlevel10k
 jq
+yq
 wget
 tree
 adobe-acrobat-reader
@@ -31,4 +34,15 @@ zsh-autosuggestions
 zsh-syntax-highlighting
 zsh-history-substring-search
 powerlevel10k
+uv
+ansible-lint
+ansible
+colordiff
+coreutils
+direnv
+ipcalc
+lazygit
+neovim
+terraformer
+terragrunt
 
