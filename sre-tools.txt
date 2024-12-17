@@ -19,7 +19,7 @@ wget
 tree
 adobe-acrobat-reader
 bash
-x--cask the-unarchiver
+--cask the-unarchiver
 --cask 1password
 --cask iterm2
 firefox
@@ -44,11 +44,10 @@ terragrunt
 p7zip
 tmux
 vault
-winetricks
 figma
-wine-stable
 docker
 docker-compose
 docker-machine
 --cask virtualbox
+htop
 
