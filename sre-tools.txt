@@ -5,7 +5,6 @@ kubectx
 k9s
 argocd
 helm
-hashicorp/tap
 hashicorp/tap/packer
 tfenv
 tgenv
@@ -50,4 +49,4 @@ docker-compose
 docker-machine
 --cask virtualbox
 htop
-
+azure-cli
