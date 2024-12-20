@@ -50,3 +50,4 @@ docker-machine
 --cask virtualbox
 htop
 azure-cli
+tmux tmux-mem-cpu-load tmux-sessionizer tmux-xpanes tmuxinator tmuxinator-completion tmx tmuxp
