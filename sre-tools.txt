@@ -6,7 +6,7 @@ k9s
 argocd
 helm
 hashicorp/tap/packer
-tfenv
+terraform
 tgenv
 jenv
 go
