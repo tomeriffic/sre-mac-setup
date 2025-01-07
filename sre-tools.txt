@@ -7,7 +7,6 @@ argocd
 helm
 hashicorp/tap/packer
 terraform
-tgenv
 jenv
 go
 --cask iterm2
@@ -26,7 +25,6 @@ firefox
 zsh-autosuggestions
 zsh-syntax-highlighting
 zsh-history-substring-search
-powerlevel10k
 uv
 ansible-lint
 ansible
@@ -51,3 +49,5 @@ docker-machine
 htop
 azure-cli
 tmux tmux-mem-cpu-load tmux-sessionizer tmux-xpanes tmuxinator tmuxinator-completion tmx tmuxp
+kubelogin
+
