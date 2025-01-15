@@ -40,6 +40,7 @@ terragrunt
 --cask obsidian
 p7zip
 tmux
+# vault - ignored as its changin licence next release so cant use it.
 figma
 docker
 docker-compose
@@ -49,5 +50,4 @@ htop
 azure-cli
 tmux tmux-mem-cpu-load tmux-sessionizer tmux-xpanes tmuxinator tmuxinator-completion tmx tmuxp
 az-kubelogin
-maccy
 
