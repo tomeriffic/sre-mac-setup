@@ -50,4 +50,4 @@ azure-cli
 tmux tmux-mem-cpu-load tmux-sessionizer tmux-xpanes tmuxinator tmuxinator-completion tmx tmuxp
 az-kubelogin
 maccy
-
+btop
