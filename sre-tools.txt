@@ -53,3 +53,4 @@ btop
 python@3.13
 tfenv
 terraform-docs
+infracost
