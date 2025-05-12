@@ -55,3 +55,4 @@ tfenv
 terraform-docs
 infracost
 go-task
+ipython
